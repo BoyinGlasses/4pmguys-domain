@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --font-poppins: 'Poppins', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  
+  --color-team17-primary: #381970;
+  --color-team17-vivid: #7317ba;
+  --color-team17-lavender: #dcdcf4;
+  --color-team17-surface: #f4f4fc;
+  --color-team17-dark: #1e0b3d;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8fd;
+  color: #381970;
+  font-family: var(--font-poppins);
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #eaeaf8;
+}
+::-webkit-scrollbar-thumb {
+  background: #7317ba;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5b1196;
+}
+
+.font-poppins {
+  font-family: var(--font-poppins);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Team17 Clean Shadows */
+.t17-shadow {
+  box-shadow: 0 10px 30px rgba(56, 25, 112, 0.08);
+}
+
+.t17-shadow-hover:hover {
+  box-shadow: 0 15px 40px rgba(115, 23, 186, 0.18);
+}
